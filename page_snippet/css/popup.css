@@ -1,0 +1,14 @@
+body {
+    width: 400px;
+    height: 600px;
+    margin: 0px;
+    /*background-color: #F5DEB3;*/
+    min-width: 357px;
+    overflow-x: hidden;
+    font-family: "Helvetica Neue",Helvetica,"Hiragino Kaku Gothic Pro","Lucida Grande",Verdana,Arial,Meiryo,"メイリオ",sans-serif;
+}
+
+textarea {
+    /*background-color: #F5DEB3;*/
+    outline: none;
+}

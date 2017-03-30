@@ -1,0 +1,30 @@
+<script src="js/libs/jquery-2.2.2.min.js"></script>
+<script src="js/libs/clipboard/clipboard.min.js"></script>
+<script src="js/popup.js"></script>
+<link rel="stylesheet" href="css/popup.css" type="text/css">
+<div style="height:100%" >
+    <div id="snippets-area" style="height:70%; overflow:auto; position:relative;">
+    </div>
+    <div id="dummy-snippet-area" style="display:none;">
+        <div >
+            <a href="javascript:void(0);" class="copy-snippet">
+                <label></label>
+                <input type="hidden" class="snippet-url" >
+                <input type="hidden" class="snippet-index" >
+            </a>
+            <button class="del-snippet" value="delete" style="float:right;">delete</button>
+            <br>
+            <hr>
+        </div>
+    </div>
+    <div style="display:none;">
+        <button id="page-snippet-copy-button" data-clipboard-text=""></button>
+    </div>
+    <div id="new-snippet-area" style="height:30%; width:97%; position:fixed; bottom:0; margin-right:5px; margin-left:5px;">
+        <input type="text" id="alias" placeholder="please input alias" style="width:100%" />
+        <textarea id="new-snippet" style="width:100%" rows="5" placeholder="snippet"></textarea>
+        <input type="text" id="url-prefix" placeholder="please input url" style="width:100%;" />
+        <button id="add-new-snippet" style="float:right;" >add</button>
+        <button id="reload-snippets" style="float:left;" >reload</button>
+    </div>
+</div>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script src="js/libs/jquery-2.2.2.min.js"></script>
+    <script src="js/options.js"></script>
+    <style>
+    ul {
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    ul li {
+        list-style: none;
+        margin-top: 5px;
+    }
+
+    label {
+        margin-right: 15px;
+    }
+
+    #save {
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    </style>
+</head>
+
+<body>
+    <h3 align="center">登録済みスニペット確認</h3>
+    <ul>
+        <div id="snippet-area">
+        </div>
+        <div id="dummy-snippet-area" style="display:none;">
+            <div>
+                <label class="snippet-url"></label>
+                <li>
+                    <textarea rows="5" class="snippet" style="width:100%;" readonly></textarea>
+                </li>
+            </div>
+        </div>
+    </ul>
+</body>
+
+</html>
